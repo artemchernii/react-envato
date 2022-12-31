@@ -1,4 +1,4 @@
 function ListItem(props) {
-    return <li>{props.text}</li>;
+    return <li className="list-group-item">{props.text}</li>;
 }
 export default ListItem;
