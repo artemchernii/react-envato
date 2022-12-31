@@ -4,3 +4,10 @@ body {
 .bg-dark {
     background-color: #333;
 }
+.new-guitar-form {
+    display: flex;
+}
+.new-guitar-form input, .new-guitar-form select {
+    width: 50%;
+    margin: 0 5px;
+}

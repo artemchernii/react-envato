@@ -13,7 +13,7 @@ const friendsList = ['Oleg', 'Kolya', 'Rustam'];
 const friends = List({ title: 'Friends', items: friendsList });
 
 function App() {
-    const [guitars, setGuitars] = useState(['Strat', 'Les Paul', 'Explorer']);
+    const [guitars, setGuitars] = useState([{title: 'Strat'}, {title: 'Les Paul'}, {title:'Explorer'}]);
     function updateGuitars(newGuitar) {
         console.log(newGuitar);
         setGuitars([...guitars, newGuitar]);
@@ -22,8 +22,6 @@ function App() {
     return (
         <>
             <Navbar title={navbarTitle} />
-            <div className="container">Hello, World!</div>
-
             <div className="container">
                 {/*<Counter startAt={0} countBy={1} />*/}
                 {/*<CounterClass startAt={0} countBy={1} />*/}
