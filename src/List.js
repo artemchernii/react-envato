@@ -12,8 +12,8 @@ function List(props) {
 
     return (
         <>
-            <h3 className={`${css} text-white ps-5`}>{props.title}</h3>
             <div className="container">
+                <h3 className={`${css} text-white ps-1`}>{props.title}</h3>
                 <ul className="list-group">{items}</ul>
             </div>
         </>
