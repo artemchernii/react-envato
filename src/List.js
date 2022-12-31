@@ -12,8 +12,10 @@ function List(props) {
 
     return (
         <>
-            <h3 className={css}>{props.title}</h3>
-            <ul>{items}</ul>
+            <h3 className={`${css} text-white`}>{props.title}</h3>
+            <div className="container">
+                <ul>{items}</ul>
+            </div>
         </>
     );
 }

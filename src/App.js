@@ -1,6 +1,6 @@
 import Navbar from './Navbar';
 import List from './List';
-// import ListClass from './ListClass';
+import ListClass from './ListClass';
 import Text from './Text';
 import Counter from './Counter';
 import CounterClass from './CounterClass';
