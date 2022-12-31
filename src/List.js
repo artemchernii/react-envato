@@ -2,14 +2,10 @@ import ListItem from './ListItem';
 import PropTypes from 'prop-types';
 
 function List(props) {
-    console.log(props);
-
     const items = props.items.map((item) => (
-        <ListItem key={props.items.indexOf(item)} text={item} />
+        <ListItem key={props.items.indexOf(item)} item={item} />
     )); // Array of li items
-
     const css = `bg-${props.background}`;
-
     return (
         <>
             <div className="container">
